@@ -61,6 +61,7 @@ body .btn-primary:hover::after {
 }
 
 /* Menu */
+
 ul.our-primary-menu {}
 
 ul.our-primary-menu li {}
@@ -636,8 +637,30 @@ ul.our-primary-menu li ul li a {}
 
 .client-details p {}
 
-.testimonial-iamge {}
+.testimonial-iamge {
+    position: relative;
+}
 
+.testimonial-iamge .Quotation_icon {
+    position: absolute;
+    left: 70px;
+    bottom: 44px;
+    color: #e73c3e;
+    font-size: 42px;
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    line-height: 100px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .4s ease-in-out;
+}
+.testimonial-iamge .Quotation_icon:hover{
+    color: #fff;
+    background-color: #e73c3e;
+}
 .testimonial-iamge img {}
 
 
